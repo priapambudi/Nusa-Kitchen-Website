@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    /> -->
+    <link rel="stylesheet" href="src/output.css" />
+    <title>Nusa Kitchen</title>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <header class="z-10 flex items-center w-full">
+      <div class="container">
+        <div
+          class="relative flex items-center justify-between xl:w-10/12 xl:mx-auto"
+        >
+          <div class="px-3">
+            <a href="#" class="block py-6 text-xl font-bold"
+              ><span class="text-primary">Nusa</span> Kitchen</a
+            >
+          </div>
+          <div class="flex items-center px-3">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="absolute block mt-2 right-4 lg:hidden"
+            >
+              <span
+                class="transition duration-300 ease-in-out origin-top-left hamburger-line"
+              ></span>
+              <span
+                class="transition duration-300 ease-in-out hamburger-line"
+              ></span>
+              <span
+                class="transition duration-300 ease-in-out origin-bottom-left hamburger-line"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute z-50 py-5 bg-white shadow-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#"
+                    class="flex py-2 mx-8 text-base text-dark group-hover:text-primary"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="flex py-2 mx-8 text-base text-dark group-hover:text-primary"
+                    >About</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#menu"
+                    class="flex py-2 mx-8 text-base text-dark group-hover:text-primary"
+                    >Menu</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#testimony"
+                    class="flex py-2 mx-8 text-base text-dark group-hover:text-primary"
+                    >Testimony</a
+                  >
+                </li>
+                <div>
+                  <li class="py-2 mx-8 group">
+                    <a
+                      href="login.html"
+                      class="px-3 py-1 border-2 rounded-lg bg-primary hover:opacity-80 lg:block border-dark"
+                      >Login</a
+                    >
+                  </li>
+                </div>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- navbar end -->
+
+    <!-- Hero section start -->
+    <section id="" class="relative">
+      <img
+        src="img/1.jpg"
+        alt=""
+        class="w-full bg-center bg-no-repeat bg-auto"
+      />
+      <div
+        class="absolute text-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      >
+        <h1 class="text-xl font-bold md:text-5xl lg:text-7xl lg:mb-2">
+          Where Flavor Meets Tradition
+        </h1>
+        <h2 class="mb-5 text-xs font-normal md:text-lg lg:text-xl">
+          Taste the Heritage at Our Traditional Resto!
+        </h2>
+        <a
+          href="booking.html"
+          class="px-3 py-2 mx-auto border-2 rounded-lg bg-primary hover:opacity-80 border-dark"
+          >Book a Table!</a
+        >
+      </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- About section start -->
+    <section id="about" class="pt-24">
+      <div class="container">
+        <div class="xl:w-10/12 xl:mx-auto">
+          <h1 class="pt-5 text-4xl font-bold text-center">About</h1>
+          <div class="items-center gap-4 mx-auto text-center lg:flex mt-7">
+            <img
+              src="img/about1.jpg"
+              alt=""
+              class="w-1/2 mx-auto mb-4 lg:w-1/3"
+            />
+            <h3
+              class="w-1/2 mx-auto mb-4 text-xs text-center md:font-medium md:text-lg"
+            >
+              Indulge in timeless flavors at our traditional resto. From savory
+              stews to delectable pastries, each dish tells a story of heritage
+              and craftsmanship. Join us for an unforgettable culinary journey.
+            </h3>
+            <img
+              src="img/about2.jpg"
+              alt=""
+              class="w-1/2 mx-auto mb-4 lg:w-1/3"
+            />
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-center mt-10 gap-7 lg:gap-16 xl:w-10/12 xl:mx-auto"
+        >
+          <div
+            class="flex items-center justify-center w-full px-3 py-2 rounded-xl bg-primary"
+          >
+            <img src="img/Vector1.svg" alt="" width="20px" height="20px" />
+            <h3 class="ml-2 text-[10px] md:text-[16px] md:font-medium">
+              Fresh Ingredients
+            </h3>
+          </div>
+          <div
+            class="flex items-center justify-center w-full px-3 py-2 rounded-xl bg-primary"
+          >
+            <img src="img/Vektor2.svg" alt="" width="20px" height="20px" />
+            <h3 class="ml-2 text-[10px] md:text-[16px] md:font-medium">
+              Certified Chef
+            </h3>
+          </div>
+          <div
+            class="flex items-center justify-center w-full px-3 py-2 rounded-xl bg-primary"
+          >
+            <img src="img/Vektor3.svg" alt="" width="20px" height="20px" />
+            <h3 class="ml-2 text-[10px] md:text-[16px] md:font-medium">
+              100% Halal
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Menu section start -->
+    <section id="menu" class="pt-24">
+      <div class="container">
+        <div class="xl:w-10/12 xl:mx-auto">
+          <h1 class="text-4xl font-bold text-center">Menu</h1>
+          <div
+            class="flex flex-wrap items-center justify-center gap-5 md:flex-nowrap mt-7"
+          >
+            <div class="border-[1px] border-slate-300 rounded-xl mt-2 w-1/3">
+              <img src="img/menu1.jpg" alt="" class="w-full" />
+              <h1 class="mt-2 font-bold text-center">Fried Rice Special</h1>
+              <h3 class="mx-2 mt-2 text-center">
+                Soy sauce, sesame oil, cooked rice, eggs, frozen peas
+              </h3>
+              <h2 class="my-2 font-bold text-center">$12</h2>
+            </div>
+            <div class="border-[1px] border-slate-300 rounded-xl mt-2 w-1/3">
+              <img src="img/menu2.jpg" alt="" class="w-full" />
+              <h1 class="mt-2 font-bold text-center">Chicken Soup</h1>
+              <h3 class="mx-2 mt-2 text-center">
+                (3 pound) chicken, carrots, stalks celery, large onion
+              </h3>
+              <h2 class="my-2 font-bold text-center">$30</h2>
+            </div>
+            <div class="border-[1px] border-slate-300 rounded-xl mt-2 w-1/3">
+              <img src="img/menu3.jpg" alt="" class="w-full" />
+              <h1 class="mt-2 font-bold text-center">Satay</h1>
+              <h3 class="mx-2 mt-2 text-center">
+                Chicken, tomatoes, peanuts, garlic, onion, cuke
+              </h3>
+              <h2 class="my-2 font-bold text-center">$35</h2>
+            </div>
+          </div>
+          <div class="relative mt-3">
+            <a
+              href="menu.html"
+              class="absolute right-0 px-3 py-2 rounded-lg bg-primary"
+              >More..</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu section end -->
+
+    <!-- Testimony section start -->
+    <section id="testimony" class="pt-24">
+      <div class="container">
+        <div class="xl:w-10/12 xl:mx-auto">
+          <h1 class="text-4xl font-bold text-center">Testimony</h1>
+          <div class="flex items-center justify-center gap-4 mx-auto mt-7">
+            <div class="">
+              <img src="img/testi1.jpg" alt="" class="mx-auto" />
+              <div class="text-center">
+                <h3 class="mt-2 italic text-slate-400">
+                  Lorem ipsum dolor sit amet consectetur. Volutpat elit tellus
+                  commodo facilisi risus.
+                </h3>
+                <h2 class="mt-2 font-semibold">Andrew K</h2>
+                <h2>Customer</h2>
+              </div>
+            </div>
+            <div class="">
+              <img src="img/testi2.jpg" alt="" class="mx-auto" />
+              <div class="text-center">
+                <h3 class="mt-2 italic text-slate-400">
+                  Lorem ipsum dolor sit amet consectetur. Volutpat elit tellus
+                  commodo facilisi risus.
+                </h3>
+                <h2 class="mt-2 font-semibold">Lisa B</h2>
+                <h2>Customer</h2>
+              </div>
+            </div>
+            <div class="">
+              <img src="img/testi3.jpg" alt="" class="mx-auto" />
+              <div class="text-center">
+                <h3 class="mt-2 italic text-slate-400">
+                  Lorem ipsum dolor sit amet consectetur. Volutpat elit tellus
+                  commodo facilisi risus.
+                </h3>
+                <h2 class="mt-2 font-semibold">Andrew K</h2>
+                <h2>Customer</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimony section end -->
+
+    <div class="mt-20 bg-dark xl:w-10/12 xl:mx-auto">
+      <hr />
+    </div>
+
+    <!-- footer start -->
+    <footer
+      class="flex flex-wrap items-center justify-between w-full pt-16 pb-12 mx-auto lg:w-10/12 lg:mx-auto md:flex-nowrap"
+    >
+      <div class="w-full text-center md:1/3">
+        <h2 class="mb-5 text-4xl font-bold">
+          <span class="text-primary">Nusa</span> Kitchen
+        </h2>
+        <h3 class="mb-2 text-2xl font-semibold">Contact Us</h3>
+        <div class="flex justify-center gap-3">
+          <a href=""><img src="img/contact1.png" alt="" /></a>
+          <a href=""><img src="img/contact2.png" alt="" /></a>
+          <a href=""><img src="img/contact3.png" alt="" /></a>
+        </div>
+      </div>
+      <div class="w-full text-center md:1/3">
+        <h2 class="mt-5 mb-2 text-xl font-semibold">Open Hours</h2>
+        <h3>Mon-Fri</h3>
+        <h3>10.00-21.00</h3>
+        <h3>Sat-Sun</h3>
+        <h3>10.00-23.00</h3>
+      </div>
+      <div class="w-full text-center md:top-0 md:h-1/3">
+        <h2 class="mt-5 mb-2 text-xl font-semibold">Location</h2>
+        <p>
+          Jl. Raya Imam Bonjol No. 10A Denpasar Utara, Kota Denpasar Indonesia
+        </p>
+        <p>0251-7654321</p>
+      </div>
+    </footer>
+    <p class="mb-4 text-xs font-medium text-center text-slate-500">
+      Copyright ©2024 All rights reserved | Nusa Kitchen |
+      <span class="text-primary">Pria Pambudi</span>
+    </p>
+    <!-- footer end -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+    <script src="src/js/script.js"></script>
+  </body>
+</html>

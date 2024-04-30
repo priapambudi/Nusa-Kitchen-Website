@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    /> -->
+    <link rel="stylesheet" href="src/output.css" />
+    <title>Nusa Kitchen</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="z-10 flex items-center w-full">
+      <div class="container">
+        <div
+          class="relative flex items-center justify-between xl:w-10/12 xl:mx-auto"
+        >
+          <div class="px-3">
+            <a href="#" class="block py-6 text-xl font-bold"
+              ><span class="text-primary">Nusa</span> Kitchen</a
+            >
+          </div>
+          <div class="flex items-center px-3">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="absolute block mt-2 right-4 lg:hidden"
+            >
+              <span
+                class="transition duration-300 ease-in-out origin-top-left hamburger-line"
+              ></span>
+              <span
+                class="transition duration-300 ease-in-out hamburger-line"
+              ></span>
+              <span
+                class="transition duration-300 ease-in-out origin-bottom-left hamburger-line"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute z-50 py-5 bg-white shadow-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="index.html"
+                    class="flex py-2 mx-8 text-base text-dark group-hover:text-primary"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="index.html"
+                    class="flex py-2 mx-8 text-base text-dark group-hover:text-primary"
+                    >About</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#menu"
+                    class="flex py-2 mx-8 text-base text-dark group-hover:text-primary"
+                    >Menu</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="index.html"
+                    class="flex py-2 mx-8 text-base text-dark group-hover:text-primary"
+                    >Testimony</a
+                  >
+                </li>
+                <div>
+                  <li class="py-2 mx-8 group">
+                    <a
+                      href="login.html"
+                      class="px-3 py-1 border-2 rounded-lg bg-primary hover:opacity-80 lg:block border-dark"
+                      >Login</a
+                    >
+                  </li>
+                </div>
+              </ul>
+            </nav>
+          </div>
+          <!-- <div
+            class="hidden px-3 py-2 border-2 rounded-lg bg-primary hover:opacity-80 lg:block border-dark"
+          >
+            <a href="">Login</a>
+          </div> -->
+          <!-- <div class="">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="mt-2 lg:hidden"
+            >
+              <span
+                class="transition duration-300 ease-in-out origin-top-left hamburger-line"
+              ></span>
+              <span
+                class="transition duration-300 ease-in-out hamburger-line"
+              ></span>
+              <span
+                class="transition duration-300 ease-in-out origin-bottom-left hamburger-line"
+              ></span>
+            </button>
+          </div> -->
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- Hero section start -->
+    <section id="" class="relative">
+      <img
+        src="img/1.jpg"
+        alt=""
+        class="w-full bg-center bg-no-repeat bg-auto"
+      />
+      <div
+        class="absolute text-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      >
+        <h1 class="text-xl font-bold md:text-5xl lg:text-7xl lg:mb-2">
+          Where Flavor Meets Tradition
+        </h1>
+        <h2 class="mb-5 text-xs font-normal md:text-lg lg:text-xl">
+          Taste the Heritage at Our Traditional Resto!
+        </h2>
+        <a
+          href="booking.html"
+          class="px-3 py-2 mx-auto border-2 rounded-lg bg-primary hover:opacity-80 border-dark"
+          >Book a Table!</a
+        >
+      </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- Menu section start -->
+    <section id="menu" class="pt-24">
+      <div class="container">
+        <div class="xl:w-10/12 xl:mx-auto">
+          <h1 class="text-4xl font-bold text-center">Menu</h1>
+          <div class="flex gap-4 mt-4">
+            <a
+              id="foodBtn"
+              href="#"
+              class="px-3 py-2 font-semibold bg-primary hover:opacity-80"
+              >Food</a
+            >
+            <a
+              id="beverageBtn"
+              href="#"
+              class="px-3 py-2 font-semibold bg-primary hover:opacity-80"
+              >Beverage</a
+            >
+            <a
+              id="dessertBtn"
+              href="#"
+              class="px-3 py-2 font-semibold bg-primary hover:opacity-80"
+              >Dessert</a
+            >
+          </div>
+
+          <div class="">
+            <div id="food" class="visible">
+              <div class="grid grid-cols-2 gap-4 lg:grid-cols-3 mt-7">
+                <div class="border-[1px] border-slate-300 rounded-xl mt-2">
+                  <img src="img/menu1.jpg" alt="" class="" />
+                  <h1 class="mt-2 font-bold text-center">Fried Rice Special</h1>
+                  <h3 class="mx-2 mt-2 text-center">
+                    Soy sauce, sesame oil, cooked rice, eggs, frozen peas
+                  </h3>
+                  <h2 class="my-2 font-bold text-center">$12</h2>
+                </div>
+                <div class="border-[1px] border-slate-300 rounded-xl mt-2">
+                  <img src="img/menu2.jpg" alt="" class="" />
+                  <h1 class="mt-2 font-bold text-center">Chicken Soup</h1>
+                  <h3 class="mx-2 mt-2 text-center">
+                    (3 pound) chicken, carrots, stalks celery, large onion
+                  </h3>
+                  <h2 class="my-2 font-bold text-center">$30</h2>
+                </div>
+                <div class="border-[1px] border-slate-300 rounded-xl mt-2">
+                  <img src="img/menu3.jpg" alt="" class="" />
+                  <h1 class="mt-2 font-bold text-center">Satay</h1>
+                  <h3 class="mx-2 mt-2 text-center">
+                    Chicken, tomatoes, peanuts, garlic, onion, cuke
+                  </h3>
+                  <h2 class="my-2 font-bold text-center">$35</h2>
+                </div>
+                <div class="border-[1px] border-slate-300 rounded-xl mt-2">
+                  <img src="img/food1.jpg" alt="" class="" />
+                  <h1 class="mt-2 font-bold text-center">Fried Chicken</h1>
+                  <h3 class="mx-2 mt-2 text-center">
+                    Chicken, buttermilk, all purpose flour, vegetable oil
+                  </h3>
+                  <h2 class="my-2 font-bold text-center">$15</h2>
+                </div>
+                <div class="border-[1px] border-slate-300 rounded-xl mt-2">
+                  <img src="img/food2.jpg" alt="" class="" />
+                  <h1 class="mt-2 font-bold text-center">Fried Tofu</h1>
+                  <h3 class="mx-2 mt-2 text-center">
+                    Soy sauce, olive oil, extra firm tofu, garlic powder
+                  </h3>
+                  <h2 class="my-2 font-bold text-center">$12</h2>
+                </div>
+                <div class="border-[1px] border-slate-300 rounded-xl mt-2">
+                  <img src="img/food3.jpg" alt="" class="" />
+                  <h1 class="mt-2 font-bold text-center">Beef Soup</h1>
+                  <h3 class="mx-2 mt-2 text-center">
+                    Beef stew meat, green beans, potatoes, beef broth, carrots
+                  </h3>
+                  <h2 class="my-2 font-bold text-center">$40</h2>
+                </div>
+                <div class="border-[1px] border-slate-300 rounded-xl mt-2">
+                  <img src="img/food4.jpg" alt="" class="" />
+                  <h1 class="mt-2 font-bold text-center">Fried Fish</h1>
+                  <h3 class="mx-2 mt-2 text-center">
+                    Lemon, dill, fish fillets, flour
+                  </h3>
+                  <h2 class="my-2 font-bold text-center">$30</h2>
+                </div>
+                <div class="border-[1px] border-slate-300 rounded-xl mt-2">
+                  <img src="img/food5.jpg" alt="" class="" />
+                  <h1 class="mt-2 font-bold text-center">Chicken Grill</h1>
+                  <h3 class="mx-2 mt-2 text-center">
+                    Skinless chicken breasts, olive oil, lemon zest, black
+                    pepper
+                  </h3>
+                  <h2 class="my-2 font-bold text-center">$30</h2>
+                </div>
+                <div class="border-[1px] border-slate-300 rounded-xl mt-2">
+                  <img src="img/food6.jpg" alt="" class="" />
+                  <h1 class="mt-2 font-bold text-center">Turmeric Rice</h1>
+                  <h3 class="mx-2 mt-2 text-center">
+                    Jasmine rice, chicken broth, butter, olive oil, garlic
+                  </h3>
+                  <h2 class="my-2 font-bold text-center">$35</h2>
+                </div>
+              </div>
+            </div>
+            <div id="beverage" class="hidden">
+              <div class="grid grid-cols-2 gap-4 lg:grid-cols-3 mt-7">
+                <div class="border-[1px] border-slate-300 rounded-xl mt-2">
+                  <img src="img/bev1.jpg" alt="" class="" />
+                  <h1 class="mt-2 font-bold text-center">Lemon Tea</h1>
+                  <h3 class="mx-2 mt-2 text-center">
+                    Lemon slice, tea powder, sugar, water
+                  </h3>
+                  <h2 class="my-2 font-bold text-center">$10</h2>
+                </div>
+                <div class="border-[1px] border-slate-300 rounded-xl mt-2">
+                  <img src="img/bev2.jpg" alt="" class="" />
+                  <h1 class="mt-2 font-bold text-center">Cappuccino</h1>
+                  <h3 class="mx-2 mt-2 text-center">
+                    Espresso, fresh milk, cold foam
+                  </h3>
+                  <h2 class="my-2 font-bold text-center">$12</h2>
+                </div>
+                <div class="border-[1px] border-slate-300 rounded-xl mt-2">
+                  <img src="img/bev3.jpg" alt="" class="" />
+                  <h1 class="mt-2 font-bold text-center">Strawberry Ice</h1>
+                  <h3 class="mx-2 mt-2 text-center">
+                    Fresh strawberries, sugar, vanilla cream, fresh milk
+                  </h3>
+                  <h2 class="my-2 font-bold text-center">$15</h2>
+                </div>
+              </div>
+            </div>
+            <div id="dessert" class="hidden">
+              <div class="grid grid-cols-2 gap-4 lg:grid-cols-3 mt-7">
+                <div class="border-[1px] border-slate-300 rounded-xl mt-2">
+                  <img src="img/dessert1.jpg" alt="" class="" />
+                  <h1 class="mt-2 font-bold text-center">Cookies</h1>
+                  <h3 class="mx-2 mt-2 text-center">
+                    Cocoa, butter, sugar, eggs, vanilla extract
+                  </h3>
+                  <h2 class="my-2 font-bold text-center">$8</h2>
+                </div>
+                <div class="border-[1px] border-slate-300 rounded-xl mt-2">
+                  <img src="img/dessert2.jpg" alt="" class="" />
+                  <h1 class="mt-2 font-bold text-center">Donuts</h1>
+                  <h3 class="mx-2 mt-2 text-center">
+                    Butter, eggs, sugar, milk, flour, vanilla extract
+                  </h3>
+                  <h2 class="my-2 font-bold text-center">$10</h2>
+                </div>
+                <div class="border-[1px] border-slate-300 rounded-xl mt-2">
+                  <img src="img/dessert3.jpg" alt="" class="" />
+                  <h1 class="mt-2 font-bold text-center">Pie Berry</h1>
+                  <h3 class="mx-2 mt-2 text-center">
+                    Blueberries, sugar, lemon, cinammon, butter, flour
+                  </h3>
+                  <h2 class="my-2 font-bold text-center">$5</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu section end -->
+
+    <div class="mt-20 bg-dark xl:w-10/12 xl:mx-auto">
+      <hr />
+    </div>
+
+    <!-- footer start -->
+    <footer
+      class="flex flex-wrap items-center justify-between pt-16 pb-12 mx-auto lg:w-10/12 lg:mx-auto md:flex-nowrap"
+    >
+      <div class="w-full text-center md:1/3">
+        <h2 class="mb-5 text-4xl font-bold">
+          <span class="text-primary">Nusa</span> Kitchen
+        </h2>
+        <h3 class="mb-2 text-2xl font-semibold">Contact Us</h3>
+        <div class="flex justify-center gap-3">
+          <a href=""><img src="img/contact1.png" alt="" /></a>
+          <a href=""><img src="img/contact2.png" alt="" /></a>
+          <a href=""><img src="img/contact3.png" alt="" /></a>
+        </div>
+      </div>
+      <div class="w-full text-center md:1/3">
+        <h2 class="mt-5 mb-2 text-xl font-semibold">Open Hours</h2>
+        <h3>Mon-Fri</h3>
+        <h3>10.00-21.00</h3>
+        <h3>Sat-Sun</h3>
+        <h3>10.00-23.00</h3>
+      </div>
+      <div class="w-full text-center md:top-0 md:h-1/3">
+        <h2 class="mt-5 mb-2 text-xl font-semibold">Location</h2>
+        <p>
+          Jl. Raya Imam Bonjol No. 10A Denpasar Utara, Kota Denpasar Indonesia
+        </p>
+        <p>0251-7654321</p>
+      </div>
+    </footer>
+    <p class="mb-4 text-xs font-medium text-center text-slate-500">
+      Copyright ©2024 All rights reserved | Nusa Kitchen |
+      <span class="text-primary">Pria Pambudi</span>
+    </p>
+    <!-- footer end -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+    <script src="src/js/script.js"></script>
+  </body>
+</html>

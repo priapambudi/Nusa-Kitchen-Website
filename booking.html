@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/output.css" />
+    <title>Nusa Kitchen</title>
+  </head>
+  <body>
+    <div class="mx-16 my-16">
+      <div class="grid-cols-2 gap-5 md:grid">
+        <div class="hidden w-full md:my-auto md:block">
+          <img src="img/booking.png" alt="" class="w-screen" />
+        </div>
+        <div class="my-auto">
+          <h1 class="mb-4 text-4xl font-bold text-center">
+            <span class="text-primary">Nusa</span> Kitchen
+          </h1>
+          <h2 class="mb-4 text-2xl font-medium text-center">Reservation</h2>
+          <form class="grid grid-cols-2 gap-2">
+            <div>
+              <label for="name" class="block mb-2 font-medium">Name</label>
+              <input
+                placeholder="Your name"
+                type="text"
+                id="name"
+                class="w-full p-3 mb-5 border-[1px] border-dark rounded-md text-dark"
+              />
+            </div>
+
+            <div>
+              <label for="email" class="block mb-2 font-medium">Email</label>
+              <input
+                placeholder="Your email"
+                type="text"
+                id="email"
+                class="w-full p-3 border-[1px] border-dark rounded-md text-dark"
+              />
+            </div>
+            <div>
+              <label for="phone" class="block mb-2 font-medium">Phone</label>
+              <input
+                placeholder="Your phone"
+                type="text"
+                id="phone"
+                class="w-full mb-5 p-3 border-[1px] border-dark rounded-md text-dark"
+              />
+            </div>
+            <div>
+              <label for="date" class="block mb-2 font-medium">Date</label>
+              <input
+                placeholder=""
+                type="date"
+                id="date"
+                class="w-full p-3 border-[1px] border-dark rounded-md text-dark"
+              />
+            </div>
+            <div>
+              <label for="time" class="block mb-2 font-medium">Time</label>
+              <input
+                placeholder=""
+                type="time"
+                id="password"
+                class="w-full p-3 border-[1px] border-dark rounded-md text-dark"
+              />
+            </div>
+            <div>
+              <label for="person" class="block mb-2 font-medium">Person</label>
+              <input
+                placeholder="1,2,3..."
+                type="text"
+                id="person"
+                class="w-full p-3 border-[1px] border-dark rounded-md text-dark"
+              />
+            </div>
+          </form>
+          <a
+            href=""
+            class="block px-3 py-2 mx-auto mt-16 font-semibold rounded w-fit bg-primary hover:opacity-80"
+            >Make a Reservation</a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>

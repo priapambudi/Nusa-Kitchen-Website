@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mx-16 my-16">
+      <div class="grid-cols-2 md:grid">
+        <div class="hidden w-full md:my-auto md:block">
+          <img src="img/login.png" alt="" class="w-screen" />
+        </div>
+        <div class="my-auto">
+          <h1 class="mb-4 text-4xl font-bold text-center">
+            <span class="text-primary">Nusa</span> Kitchen
+          </h1>
+          <h2 class="mb-4 text-2xl font-medium text-center">Sign In</h2>
+          <form class="w-3/4 mx-auto">
+            <label for="email" class="block mb-2 font-medium">Email</label>
+            <input
+              placeholder="Enter your email"
+              type="email"
+              id="email"
+              class="w-full p-3 mb-5 border-[1px] border-dark rounded-md text-dark"
+            />
+
+            <label for="password" class="block mb-2 font-medium"
+              >Password</label
+            >
+            <input
+              placeholder="Enter your password"
+              type="text"
+              id="password"
+              class="w-full p-3 border-[1px] border-dark rounded-md text-dark"
+            />
+            <div class="flex items-center justify-between pt-2">
+              <div class="flex items-center justify-center">
+                <input type="checkbox" class="mr-1" />
+                <label for="" class="text-[10px] md:text-sm">Remember me</label>
+              </div>
+              <a href="" class="text-[10px] md:text-sm hover:text-primary"
+                >Forgot Password?</a
+              >
+            </div>
+          </form>
+          <a
+            href=""
+            class="block px-3 py-2 mx-auto mt-16 font-semibold rounded w-fit bg-primary hover:opacity-80"
+            >Login</a
+          >
+          <p class="mt-4 text-center">
+            Don't have an account?
+            <a href="" class="underline hover:text-primary">Sign Up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
